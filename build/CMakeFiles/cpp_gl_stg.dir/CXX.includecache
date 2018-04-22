@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lucho/Projects/cpp_gl_stg_contr/src/main.cpp
+iostream
+-
+GL/freeglut.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GL/freeglut.h
+GL/gl.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GL/gl.h
+
