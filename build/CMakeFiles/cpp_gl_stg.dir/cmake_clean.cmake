@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpp_gl_stg.dir/src/main.cpp.o"
+  "CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.o"
   "cpp_gl_stg.pdb"
   "cpp_gl_stg"
 )

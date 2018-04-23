@@ -123,6 +123,33 @@ cpp_gl_stg/fast:
 	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/build
 .PHONY : cpp_gl_stg/fast
 
+src/GLXManager.o: src/GLXManager.cpp.o
+
+.PHONY : src/GLXManager.o
+
+# target to build an object file
+src/GLXManager.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.o
+.PHONY : src/GLXManager.cpp.o
+
+src/GLXManager.i: src/GLXManager.cpp.i
+
+.PHONY : src/GLXManager.i
+
+# target to preprocess a source file
+src/GLXManager.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.i
+.PHONY : src/GLXManager.cpp.i
+
+src/GLXManager.s: src/GLXManager.cpp.s
+
+.PHONY : src/GLXManager.s
+
+# target to generate assembly for a file
+src/GLXManager.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.s
+.PHONY : src/GLXManager.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_gl_stg"
+	@echo "... src/GLXManager.o"
+	@echo "... src/GLXManager.i"
+	@echo "... src/GLXManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
