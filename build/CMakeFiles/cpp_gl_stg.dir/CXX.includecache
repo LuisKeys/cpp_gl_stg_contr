@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/lucho/Projects/cpp_gl_stg_contr/src/GLXColor.cpp
+GLXColor.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GLXColor.h
+
 /home/lucho/Projects/cpp_gl_stg_contr/src/GLXColor.h
 
 /home/lucho/Projects/cpp_gl_stg_contr/src/GLXManager.cpp

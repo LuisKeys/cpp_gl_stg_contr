@@ -1,42 +1,31 @@
 #include <iostream>
 #include "GLXManager.h"
 
-GLXState state;
+GLXState glxState;
+GLXManager glxManager;
 
 void renderFunction()
 {
-  glClearColor(state.backColor.red, state.backColor.green, state.backColor.blue, state.backColor.alpha);
-  glClear(GL_COLOR_BUFFER_BIT);
+
+  glxState.windowName = "GLX Window";
+  glxManager.Clear(&glxState);
+
   glColor3f(1.0, 1.0, 1.0);
-  glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
   glBegin(GL_POLYGON);
-    glVertex2f(-0.5, -0.5);
-    glVertex2f(-0.5, 0.5);
-    glVertex2f(0.5, 0.5);
-    glVertex2f(0.5, -0.5);
+    glVertex2f(0.0, 0.0);
+    glVertex2f(0.0, 500.0);
+    glVertex2f(500.0, 500.0);
+    glVertex2f(500.0, 0.0);
   glEnd();
-  glFlush();
-  glutSwapBuffers();
-  glutPostRedisplay();
+
+  glxManager.Update();
 }
 
 int main(int argc, char** argv)
 {
-  GLXManager manager;
 
-  state.argcp = &argc;
-  state.argv = argv;
-  state.width = 500;
-  state.height = 500;
-  state.left = 0;
-  state.top = 0;
-  state.mode = manager.FULL_SCREEN;
-  GLXColor::GetColorByName(GLXColor::GLXCOLOR_RED, &state.backColor);
+  glxManager.Init(&glxState, &argc, argv);
 
-  manager.Init(state);
-
-  glutDisplayFunc(renderFunction);
-
-  glutMainLoop();    
+  glxManager.Loop(renderFunction);
   return 0;
 }

@@ -3,6 +3,11 @@
 #include "GL/gl.h"
 #include "GLXColor.h"
 
+#define GLX_FULL_SCREEN 1
+#define GLX_WINDOWED  0
+
+#define GLX_VP_WIDTH 1000
+
 class GLXState {
 	public:
 		int *argcp;
@@ -13,12 +18,14 @@ class GLXState {
 		int top;
 		int mode;
 		GLXColor backColor;
+		const char * windowName;
 };
 
 class GLXManager {
-	public:
-		const int FULL_SCREEN = 1;
-		const int WINDOWED = 0;
 
-		void Init(GLXState state);
+	public:
+		void Init(GLXState * state, int * argcp, char** argv);
+		void Loop(void (*displayFunction)(void));
+		void Clear(GLXState * state);
+		void Update();
 };

@@ -123,6 +123,33 @@ cpp_gl_stg/fast:
 	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/build
 .PHONY : cpp_gl_stg/fast
 
+src/GLXColor.o: src/GLXColor.cpp.o
+
+.PHONY : src/GLXColor.o
+
+# target to build an object file
+src/GLXColor.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXColor.cpp.o
+.PHONY : src/GLXColor.cpp.o
+
+src/GLXColor.i: src/GLXColor.cpp.i
+
+.PHONY : src/GLXColor.i
+
+# target to preprocess a source file
+src/GLXColor.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXColor.cpp.i
+.PHONY : src/GLXColor.cpp.i
+
+src/GLXColor.s: src/GLXColor.cpp.s
+
+.PHONY : src/GLXColor.s
+
+# target to generate assembly for a file
+src/GLXColor.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXColor.cpp.s
+.PHONY : src/GLXColor.cpp.s
+
 src/GLXManager.o: src/GLXManager.cpp.o
 
 .PHONY : src/GLXManager.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp_gl_stg"
+	@echo "... src/GLXColor.o"
+	@echo "... src/GLXColor.i"
+	@echo "... src/GLXColor.s"
 	@echo "... src/GLXManager.o"
 	@echo "... src/GLXManager.i"
 	@echo "... src/GLXManager.s"
