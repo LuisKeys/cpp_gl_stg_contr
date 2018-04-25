@@ -1,8 +1,11 @@
 #pragma once
+#include <string>
 #include "GL/freeglut.h"
 #include "GL/gl.h"
+#include "GLXControls.h"
 #include "GLXColor.h"
 #include "GLXShapes.h"
+
 
 #define GLX_FULL_SCREEN 1
 #define GLX_WINDOWED  0

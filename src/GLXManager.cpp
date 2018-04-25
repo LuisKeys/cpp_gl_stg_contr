@@ -30,7 +30,7 @@ void GLXManager::Init(GLXState * statep, int * argcp, char** argv) {
   statep->window.top = 0;
   statep->window.mode = GLX_WINDOWED;
   statep->window.windowName = "GLX Window";
-  statep->window.displayFPS = GLX_FPS_ON;
+  statep->window.displayFPS = GLX_FPS_OFF;
 
   color.GetColorByName(GLXCOLOR_BLACK, &statep->window.backColor);
 
@@ -81,4 +81,3 @@ unsigned long GLXManager::GetTickCount() {
     using namespace std::chrono;
     return duration_cast<milliseconds>(steady_clock::now().time_since_epoch()).count();
 }
-
