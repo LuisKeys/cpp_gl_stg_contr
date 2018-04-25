@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/lucho/Projects/cpp_gl_stg_contr/src/GLXColor.cpp" "/home/lucho/Projects/cpp_gl_stg_contr/build/CMakeFiles/cpp_gl_stg.dir/src/GLXColor.cpp.o"
   "/home/lucho/Projects/cpp_gl_stg_contr/src/GLXManager.cpp" "/home/lucho/Projects/cpp_gl_stg_contr/build/CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.o"
+  "/home/lucho/Projects/cpp_gl_stg_contr/src/GLXShapes.cpp" "/home/lucho/Projects/cpp_gl_stg_contr/build/CMakeFiles/cpp_gl_stg.dir/src/GLXShapes.cpp.o"
   "/home/lucho/Projects/cpp_gl_stg_contr/src/main.cpp" "/home/lucho/Projects/cpp_gl_stg_contr/build/CMakeFiles/cpp_gl_stg.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

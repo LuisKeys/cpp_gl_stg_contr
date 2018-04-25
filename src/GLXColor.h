@@ -4,6 +4,7 @@
 #define GLXCOLOR_GREEN 2
 #define GLXCOLOR_BLUE 3
 #define GLXCOLOR_LIGHT_YELLOW 4
+#define GLXCOLOR_BLACK 5
 
 class GLXColor {
 	public:

@@ -177,6 +177,33 @@ src/GLXManager.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.s
 .PHONY : src/GLXManager.cpp.s
 
+src/GLXShapes.o: src/GLXShapes.cpp.o
+
+.PHONY : src/GLXShapes.o
+
+# target to build an object file
+src/GLXShapes.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXShapes.cpp.o
+.PHONY : src/GLXShapes.cpp.o
+
+src/GLXShapes.i: src/GLXShapes.cpp.i
+
+.PHONY : src/GLXShapes.i
+
+# target to preprocess a source file
+src/GLXShapes.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXShapes.cpp.i
+.PHONY : src/GLXShapes.cpp.i
+
+src/GLXShapes.s: src/GLXShapes.cpp.s
+
+.PHONY : src/GLXShapes.s
+
+# target to generate assembly for a file
+src/GLXShapes.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp_gl_stg.dir/build.make CMakeFiles/cpp_gl_stg.dir/src/GLXShapes.cpp.s
+.PHONY : src/GLXShapes.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... src/GLXManager.o"
 	@echo "... src/GLXManager.i"
 	@echo "... src/GLXManager.s"
+	@echo "... src/GLXShapes.o"
+	@echo "... src/GLXShapes.i"
+	@echo "... src/GLXShapes.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/cpp_gl_stg.dir/src/main.cpp.o CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.o CMakeFiles/cpp_gl_stg.dir/src/GLXColor.cpp.o  -o cpp_gl_stg -lz -lssl -luv -luWS -lglut -lGL -lGLU 
+/usr/bin/c++      CMakeFiles/cpp_gl_stg.dir/src/main.cpp.o CMakeFiles/cpp_gl_stg.dir/src/GLXManager.cpp.o CMakeFiles/cpp_gl_stg.dir/src/GLXColor.cpp.o CMakeFiles/cpp_gl_stg.dir/src/GLXShapes.cpp.o  -o cpp_gl_stg -lz -lssl -luv -luWS -lglut -lGL -lGLU 

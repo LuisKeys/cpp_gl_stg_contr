@@ -25,5 +25,12 @@ void GLXColor::GetColorByName(int colorName, GLXColor * colorp) {
 			colorp->green = 1.0f;
 			colorp->blue = 0.5f;
 			break;
+
+		case GLXCOLOR_BLACK: 
+			colorp->red = 0.0f;
+			colorp->green = 0.0f;
+			colorp->blue = 0.0f;
+			break;
+
 	}
 }

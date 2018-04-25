@@ -17,6 +17,8 @@ iostream
 -
 GLXManager.h
 /home/lucho/Projects/cpp_gl_stg_contr/src/GLXManager.h
+chrono
+-
 
 /home/lucho/Projects/cpp_gl_stg_contr/src/GLXManager.h
 GL/freeglut.h
@@ -25,6 +27,24 @@ GL/gl.h
 /home/lucho/Projects/cpp_gl_stg_contr/src/GL/gl.h
 GLXColor.h
 /home/lucho/Projects/cpp_gl_stg_contr/src/GLXColor.h
+GLXShapes.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GLXShapes.h
+
+/home/lucho/Projects/cpp_gl_stg_contr/src/GLXShapes.cpp
+GLXShapes.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GLXShapes.h
+
+/home/lucho/Projects/cpp_gl_stg_contr/src/GLXShapes.h
+GLXColor.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GLXColor.h
+iostream
+-
+cmath
+-
+GL/freeglut.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GL/freeglut.h
+GL/gl.h
+/home/lucho/Projects/cpp_gl_stg_contr/src/GL/gl.h
 
 /home/lucho/Projects/cpp_gl_stg_contr/src/main.cpp
 iostream
