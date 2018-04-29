@@ -20,4 +20,4 @@ endif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
 
 add_executable(cpp_gl_stg ${sources})
 
-target_link_libraries(cpp_gl_stg z ssl uv uWS glut GL GLU)
+target_link_libraries(cpp_gl_stg z glut GL GLU)
