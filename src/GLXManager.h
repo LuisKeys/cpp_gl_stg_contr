@@ -5,6 +5,7 @@
 #include "GLXControls.h"
 #include "GLXColor.h"
 #include "GLXShapes.h"
+#include "GLXInput.h"
 
 
 #define GLX_FULL_SCREEN 1
@@ -12,6 +13,9 @@
 
 #define GLX_FPS_OFF 0
 #define GLX_FPS_ON 1
+
+#define GLX_TRUE 1
+#define GLX_FALSE 0
 
 #define GLX_VP_WIDTH 1000
 
@@ -39,9 +43,5 @@ class GLXManager {
 	public:
 		void Init(GLXState * state, int * argcp, char** argv);
 		void Loop(void (*displayFunction)(void));
-		void Clear();
-		void Update();
-		void CalculateFrameRate();
-		unsigned long GetTickCount();
 
 };
